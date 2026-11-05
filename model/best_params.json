@@ -1,0 +1,23 @@
+{
+  "Logistic Regression": {
+    "C": 10,
+    "class_weight": "balanced"
+  },
+  "Decision Tree": {
+    "class_weight": "balanced",
+    "max_depth": 3,
+    "min_samples_leaf": 1
+  },
+  "KNN": {
+    "n_neighbors": 31,
+    "weights": "uniform"
+  },
+  "Naive Bayes": {
+    "var_smoothing": 1e-09
+  },
+  "Support Vector Machine": {
+    "C": 1,
+    "class_weight": "balanced",
+    "kernel": "rbf"
+  }
+}
