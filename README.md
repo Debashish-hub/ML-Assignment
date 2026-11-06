@@ -135,3 +135,7 @@ Requires Python 3.11+. On Windows, use `.venv\Scripts\python.exe` instead of `.v
 - **Confusion matrix** heatmap with plain-language TP/FN/FP/TN breakdown
 - **Classification report**, **ROC curve**, side-by-side **comparison of all models** on the uploaded data, and downloadable **predictions**
 - Validates the upload (missing columns, invalid labels) with clear error messages
+
+
+**Author:** BITS ID 2026AJ05322
+**Executed on:** BITS Virtual Lab (training run) · Deployed on Streamlit Community Cloud
