@@ -2,8 +2,8 @@
 
 **M.Tech (AIML), BITS Pilani WILP — Machine Learning, Assignment 2**
 
-🔗 **GitHub repository:** `https://github.com/Debashish-hub/ML-Assignment`
-🔗 **Live Streamlit app:** `https://ml-assignment-edhzemsmar3c8bcggop5er.streamlit.app/`
+🔗 **GitHub repository:** https://github.com/Debashish-hub/ML-Assignment
+🔗 **Live Streamlit app:** https://ml-assignment-edhzemsmar3c8bcggop5er.streamlit.app/
 
 ---
 
