@@ -113,6 +113,20 @@ scores, so probabilities are not required).*
 | Support Vector Machine | Balanced RBF-SVM behaves much like Logistic Regression (recall 0.78, F1 0.608) but slightly worse on every metric and far costlier to tune. The non-linear kernel adds no value here, again pointing to a mostly linear decision boundary. |
 | **Overall winner for this dataset** | **Logistic Regression.** It has the best AUC and F1 and the second-best MCC, while catching ~80% of churners — the outcome a retention team cares about most. KNN wins on accuracy/MCC but misses too many churners. Logistic Regression is also the fastest and most interpretable model, so it is the best practical choice. |
 
+
+## How to run locally
+
+```bash
+git clone https://github.com/Debashish-hub/ML-Assignment.git
+cd ML-Assignment
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m model.train_models      # retrains and regenerates model/ and test_data.csv
+.venv/bin/python -m streamlit run app.py
+```
+
+Requires Python 3.11+. On Windows, use `.venv\Scripts\python.exe` instead of `.venv/bin/python`.
+
 ## Streamlit app features
 
 - **CSV upload** (test data only) plus a one-click sample `test_data.csv` download / bundled option
